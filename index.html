@@ -78,9 +78,9 @@
     ul li a:hover {
       border-color: #727272;
     }
-    @media only screen and (min-width: 780px) {
+    @media only screen and (min-width: 1080px) {
       body {
-        padding: 5% 10% 100% 10%;
+        padding: 5% 8% 100% 8%;
       }
       h2 {
         font-weight: 200;
@@ -99,7 +99,28 @@
         padding: 2px 8px;
       }
     }
-    @media only screen and (max-width: 780px) and (min-width: 380px) {
+    @media only screen and (min-width: 780px) and (max-width: 1080px) {
+      body {
+        padding: 5% 4% 100% 4%;
+      }
+      h2 {
+        font-weight: 200;
+      }
+      h3 {
+        display: inline-block;
+      }
+      ul {
+        display: inline-block;
+      }
+      ul li {
+        display: inline-block;
+        margin: 2px;
+      }
+      ul li a {
+        padding: 2px 8px;
+      }
+    }
+    @media only screen and (min-width: 380px) and (max-width: 780px) {
       body {
         padding: 0 2% 100% 2%;
       }
