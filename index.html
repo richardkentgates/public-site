@@ -63,7 +63,7 @@
     ul li a:hover {
       border-color: #727272;
     }
-    @media only screen and (min-width: 500px) {
+    @media only screen and (min-width: 780px) {
       body {
         padding: 5% 10%;
       }
@@ -81,7 +81,7 @@
         margin: 2px;
       }
     }
-    @media only screen and (max-width: 500px) {
+    @media only screen and (max-width: 780px) and (min-width: 380px) {
       body {
         padding: 2%;
       }
@@ -104,6 +104,30 @@
         display: block;
         font-size: 14px;
       }
+    }
+    @media only screen and (max-width: 380px) {
+      body {
+        padding: 1%;
+      }
+      h2 {
+        font-weight: 300;
+        font-size: 14px;
+      }
+      h3 {
+        display: block;
+        font-size: 12px;
+      }
+      ul {
+        display: block;
+      }
+      ul li {
+        display: block;
+        margin: 4px;
+      }
+      ul li a {
+        display: block;
+        font-size: 14px;
+      } 
     }
   </style>
 </head>
