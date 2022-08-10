@@ -25,6 +25,7 @@
     }
     h2 {
       display: block;
+      border-bottom: solid 1px #525252;
       text-shadow: 1px 1px 3px #000;
       color: #fff;
     }
@@ -32,11 +33,17 @@
       h2 {
         font-weight: 200;
       }
+      h3 {
+        display: inline-block;
+      }
     }
     @media only screen and (max-width: 380px) {
       h2 {
         font-weight: 300;
         font-size: 16px;
+      }
+      h3 {
+        display: block;
       }
     }
     a {
@@ -50,29 +57,30 @@
       color: #62a9d9; 
     }
     ul {
-      display: block;
+      display: inline-block;
       list-style: none;
     }
     ul li {
       display: inline-block;
       margin: 2px;
+    }
+    ul li a {
       padding: 2px 4px;
       background-color: rgba(0,0,0,0.4);
       border: solid 1px #323232;
       box-shadow: 1px 1px 3px rgba(0,0,0,0.7);
       transition: border 0.5s ease;
-    }
-    ul li:hover {
-      border-color: #727272;
-    }
-    ul li a {
       color: #fff; 
+    }
+    ul li a:hover {
+      border-color: #727272;
     }
   </style>
 </head>
 <body>
   <h1>RKG</h1>
   <h2>Webmaster for <a href="https://gapcreekmedia.com" target="_blank" title="Web Presence Management and Consulting">Gap Creek Media</a></h2>
+  <h3>Profiles</h3>
   <ul>
     <li><a href="https://profiles.wordpress.org/richardkentgates/" target="_blank" title="RKG on WordPress.org">WordPress.org</a></li>
     <li><a href="https://stackoverflow.com/users/962504/richard" target="_blank" title="RKG on StackOverflow.com">StackOverflow.com</a></li>
