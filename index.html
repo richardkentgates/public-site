@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@100;200;300&display=swap" rel="stylesheet">
   <style>
     *{
       font-family: 'Prompt', sans-serif;
@@ -17,13 +17,21 @@
     }
     h1 {
       display: block;
+      font-weight: 100;
       color: #fff;
     }
     h2 {
       display: block;
+      font-weight: 200;
       color: #fff;
     }
+    @media only screen and (min-width: 380px) {
+      h2 {
+        font-size: 16px;
+      }
+    }
     a {
+      font-weight: 300;
       text-decoration: none;
       outline: none;
       color: #00B4CC;
@@ -37,6 +45,11 @@
       border-top: solid 1px #4f88af;
       border-bottom: solid 1px #4f88af;
       list-style: none;
+    }
+    ul li {
+      display: inline-block;
+      margin: 2px;
+      padding: 2px 4px;
     }
   </style>
 </head>
