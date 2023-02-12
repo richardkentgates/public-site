@@ -27,16 +27,10 @@
       margin: 0;
       padding: 12px 0;
     }
-    div {
-      display: inline-block;
-      width: 50%;
-      padding: 0;
-      margin: 0;
-    }
-    div strong {
+    div.extra strong {
       display: block;
     }
-    div strong a {
+    div.extra strong a {
       display: block;
       text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
       padding: 8px;
@@ -101,6 +95,18 @@
       body {
         padding: 5% 8% 100% 8%;
       }
+      div.bio {
+        display: inline-block;
+        width: 64%;
+        padding: 0;
+        margin: 0;
+      }
+      div.extra {
+        display: inline-block;
+        width: 36%;
+        padding: 0;
+        margin: 0;
+      }
       h2 {
         font-weight: 200;
       }
@@ -121,6 +127,18 @@
     @media only screen and (min-width: 780px) and (max-width: 1080px) {
       body {
         padding: 5% 4% 100% 4%;
+      }
+      div.bio {
+        display: block;
+        width: 84%;
+        padding: 0 8%;
+        margin: 0 8%;
+      }
+      div.extra {
+        display: block;
+        width: 84%;
+        padding: 0 8%;
+        margin: 0 8%;
       }
       h2 {
         font-weight: 200;
@@ -148,6 +166,18 @@
       body {
         padding: 0 2% 100% 2%;
       }
+      div.bio {
+        display: block;
+        width: 92%;
+        padding: 0 4%;
+        margin: 0 4%;
+      }
+      div.extra {
+        display: block;
+        width: 92%;
+        padding: 0 4%;
+        margin: 0 4%;
+      }
       h2 {
         font-weight: 300;
         font-size: 18px;
@@ -174,6 +204,18 @@
     @media only screen and (max-width: 380px) {
       body {
         padding: 0 1% 100% 1%;
+      }
+      div.bio {
+        display: block;
+        width: 96%;
+        padding: 0 2%;
+        margin: 0 2%;
+      }
+      div.extra {
+        display: block;
+        width: 96%;
+        padding: 0 2%;
+        margin: 0 2%;
       }
       h2 {
         font-weight: 300;
@@ -206,7 +248,7 @@
     <h2>Webmaster for <a href="https://gapcreekmedia.com" target="_blank" title="Web Presence Management and Consulting">Gap Creek Media</a></h2>
   </header>
   <main>
-    <div>
+    <div class="bio">
     <h3>Profiles</h3>
       <ul>
         <li><a href="https://profiles.wordpress.org/richardkentgates/" target="_blank" title="RKG on WordPress.org">WordPress.org</a></li>
@@ -215,7 +257,7 @@
         <li><a href="https://jsfiddle.net/user/richardkentgates/" target="_blank" title="RKG on JsFiddle.net">JsFiddle.net</a></li>
     </ul>
     </div>
-    <div>
+    <div class="extra">
         <strong><a href="https://open.spotify.com/album/6PpY8MTNORze0RspuiNqKR?si=K3X4meNfT_KxxQhCA6Eblw" target="_blank" title="Listening to">Listening to:</a></strong>
         <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/6PpY8MTNORze0RspuiNqKR?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>      
     </div>
