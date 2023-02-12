@@ -91,6 +91,7 @@
     }
     main div.bio strong a:hover {
       border-color: #727272;
+      color: #525252;
     }
     main div h3 {
       display: block;
