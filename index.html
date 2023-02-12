@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
@@ -24,38 +26,28 @@
       padding: 12px 0 0 0;
     }
     header img.profile-picture {
-      float: left;
+      box-shadow: 2px 2px 6px rgba(0,0,0,0.8);
+      border: solid 1px #888;
+      border-radius: 4px;
     }
     header div {
-      display: block;
+      margin: 1%;
     }
     header div img.logo {
       width: 32px;
       height: 32px;
+      border-radius: 50% 50%;
     }
-    h1 {
+    header div h1 {
       display: block;
       text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
       font-weight: 300;
       color: #fff;
     }
-    h2 {
+    header div h2 {
       display: block;
       border-bottom: solid 1px #525252;
       text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
-      color: #fff;
-    }
-    h3 {
-      display: block;
-      padding: 8px 8px 8px 0;
-      text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
-      font-weight: 300;
-      color: #fff;
-    }
-    h4 {
-      display: inline-block;
-      text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
-      font-weight: 300;
       color: #fff;
     }
     a {
@@ -66,7 +58,7 @@
       transition: color 0.5s ease;
     }
     a:hover {
-      color: #62a9d9; 
+      color: #62a9d9;
     }
     ul {
       display: block;
@@ -99,6 +91,34 @@
       padding: 0;
       margin: 0;
     }
+    main div.bio strong a {
+      display: inline-block;
+      padding: 4px;
+      background-color: #62a9d9;
+      border: solid 1px #62a9d9;
+      border-radius: 2px;
+      box-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+      transition: border 0.5s ease;
+      font-weight: 600;
+      color: #fff;
+      transition: color 0.5s ease, border 0.5s ease;
+    }
+    main div.bio strong a:hover {
+      border-color: #727272;
+    }
+    main div h3 {
+      display: block;
+      padding: 8px 8px 8px 0;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+      font-weight: 300;
+      color: #fff;
+    }
+    main div h4 {
+      display: inline-block;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+      font-weight: 300;
+      color: #fff;
+    }
     footer {
       display: block;
       margin: 0;
@@ -112,7 +132,16 @@
       body {
         padding: 5% 8% 100% 8%;
       }
-      h2 {
+      header img.profile-picture {
+        display: inline-block;
+        margin: 1% 1% -32px 1%;
+        width: 128px;
+      }
+      header div {
+        display: inline-block;
+        width: 80%;
+      }
+      header div h2 {
         font-weight: 200;
       }
       ul li {
@@ -135,7 +164,16 @@
       body {
         padding: 5% 4% 100% 4%;
       }
-      h2 {
+      header img.profile-picture {
+        display: block;
+        margin: 1% auto;
+        width: 128px;
+      }
+      header div {
+        display: block;
+        width: 80%;
+      }
+      header div h2 {
         font-weight: 200;
       }
       ul li {
@@ -163,7 +201,16 @@
       body {
         padding: 0 2% 100% 2%;
       }
-      h2 {
+      header img.profile-picture {
+        display: block;
+        margin: 1% auto;
+        width: 128px;
+      }
+      header div {
+        display: block;
+        width: 80%;
+      }
+      header div h2 {
         font-weight: 300;
         font-size: 18px;
       }
@@ -191,7 +238,16 @@
       body {
         padding: 0 1% 100% 1%;
       }
-      h2 {
+      header img.profile-picture {
+        display: block;
+        margin: 1% auto;
+        width: 128px;
+      }
+      header div {
+        display: block;
+        width: 80%;
+      }
+      header div h2 {
         font-weight: 300;
         font-size: 15px;
       }
@@ -221,7 +277,7 @@
   <header>
     <img class="profile-picture" src="me.jpg" alt="Profile Picture" title="Profile Picture" />
     <div class="title-tag">
-      <h1>RKG <img class="logo" src="rkg_logo_64x64.jpg" alt="Logo" title="Logo" /></h1>
+      <h1>Richard Kent Gates <img class="logo" src="rkg_logo_64x64.jpg" alt="Logo" title="Logo" /></h1>
       <h2>Webmaster for <a href="https://gapcreekmedia.com" target="_blank" title="Web Presence Management and Consulting">Gap Creek Media</a></h2>
     </div>
   </header>
@@ -241,7 +297,7 @@
     </div>
     <div class="extra">
         <h3>Listening to:</h3>
-        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/6PpY8MTNORze0RspuiNqKR?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>      
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/6PpY8MTNORze0RspuiNqKR?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
     </div>
   </main>
   <footer>
