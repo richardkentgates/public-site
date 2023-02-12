@@ -4,6 +4,7 @@
   <title>RKG</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="rkg_logo_64x64_fav.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@200;300&display=swap" rel="stylesheet">
@@ -21,6 +22,16 @@
       display: block;
       margin: 0;
       padding: 12px 0 0 0;
+    }
+    header img.profile-picture {
+      float: left;
+    }
+    header div {
+      display: block;
+    }
+    header div img.logo {
+      width: 32px;
+      height: 32px;
     }
     h1 {
       display: block;
@@ -83,7 +94,7 @@
       margin: 0;
       padding: 0;
     }
-    div {
+    main div {
       vertical-align: text-top;
       padding: 0;
       margin: 0;
@@ -208,8 +219,11 @@
 </head>
 <body>
   <header>
-    <h1>RKG</h1>
-    <h2>Webmaster for <a href="https://gapcreekmedia.com" target="_blank" title="Web Presence Management and Consulting">Gap Creek Media</a></h2>
+    <img class="profile-picture" src="me.jpg" alt="Profile Picture" title="Profile Picture" />
+    <div class="title-tag">
+      <h1>RKG <img class="logo" src="rkg_logo_64x64.jpg" alt="Logo" title="Logo" /></h1>
+      <h2>Webmaster for <a href="https://gapcreekmedia.com" target="_blank" title="Web Presence Management and Consulting">Gap Creek Media</a></h2>
+    </div>
   </header>
   <main>
     <div class="bio">
