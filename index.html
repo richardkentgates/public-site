@@ -27,10 +27,28 @@
       margin: 0;
       padding: 12px 0;
     }
+    div {
+      display: inline-block;
+      width: 50%;
+      padding: 0;
+      margin: 0;
+    }
+    div strong {
+      display: block;
+    }
+    div strong a {
+      display: block;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+      padding: 8px;
+    }
     footer {
       display: block;
       margin: 0;
       padding: 12px 0;
+      text-align: center;
+    }
+    footer p {
+      color: #fff;
     }
     h1 {
       display: block;
@@ -78,14 +96,6 @@
     }
     ul li a:hover {
       border-color: #727272;
-    }
-    footer strong {
-      display: block;
-    }
-    footer strong a {
-      display: block;
-      text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
-      padding: 8px;
     }
     @media only screen and (min-width: 1080px) {
       body {
@@ -196,16 +206,21 @@
     <h2>Webmaster for <a href="https://gapcreekmedia.com" target="_blank" title="Web Presence Management and Consulting">Gap Creek Media</a></h2>
   </header>
   <main>
+    <div>
     <h3>Profiles</h3>
-    <ul>
-      <li><a href="https://profiles.wordpress.org/richardkentgates/" target="_blank" title="RKG on WordPress.org">WordPress.org</a></li>
-      <li><a href="https://stackoverflow.com/users/962504/richard" target="_blank" title="RKG on StackOverflow.com">StackOverflow.com</a></li>
-      <li><a href="https://github.com/richardkentgates" target="_blank" title="RKG on GitHub.com">GitHub.com</a></li>
-      <li><a href="https://jsfiddle.net/user/richardkentgates/" target="_blank" title="RKG on JsFiddle.net">JsFiddle.net</a></li>
+      <ul>
+        <li><a href="https://profiles.wordpress.org/richardkentgates/" target="_blank" title="RKG on WordPress.org">WordPress.org</a></li>
+        <li><a href="https://stackoverflow.com/users/962504/richard" target="_blank" title="RKG on StackOverflow.com">StackOverflow.com</a></li>
+        <li><a href="https://github.com/richardkentgates" target="_blank" title="RKG on GitHub.com">GitHub.com</a></li>
+        <li><a href="https://jsfiddle.net/user/richardkentgates/" target="_blank" title="RKG on JsFiddle.net">JsFiddle.net</a></li>
     </ul>
+    </div>
+    <div>
+        <strong><a href="https://open.spotify.com/album/6PpY8MTNORze0RspuiNqKR?si=K3X4meNfT_KxxQhCA6Eblw" target="_blank" title="Listening to">Listening to:</a></strong>
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/6PpY8MTNORze0RspuiNqKR?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>      
+    </div>
   </main>
   <footer>
-    <strong><a href="https://open.spotify.com/album/6PpY8MTNORze0RspuiNqKR?si=K3X4meNfT_KxxQhCA6Eblw" target="_blank" title="Listening to">Listening to:</a></strong>
-    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/6PpY8MTNORze0RspuiNqKR?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+    <p>Website hosted on Github</p>
   </footer>
 </body>
