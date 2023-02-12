@@ -27,14 +27,8 @@
       margin: 0;
       padding: 12px 0;
     }
-    footer {
-      display: block;
-      margin: 0;
-      padding: 12px 0;
-      text-align: center;
-    }
-    footer p {
-      color: #fff;
+    div {
+      vertical-align: text-top;
     }
     h1 {
       display: block;
@@ -85,21 +79,18 @@
     ul li a:hover {
       border-color: #727272;
     }
+    footer {
+      display: block;
+      margin: 0;
+      padding: 12px 0;
+      text-align: center;
+    }
+    footer p {
+      color: #fff;
+    }
     @media only screen and (min-width: 1080px) {
       body {
         padding: 5% 8% 100% 8%;
-      }
-      div.bio {
-        display: inline-block;
-        width: 63%;
-        padding: 0;
-        margin: 0;
-      }
-      div.extra {
-        display: inline-block;
-        width: 35%;
-        padding: 0;
-        margin: 0;
       }
       h2 {
         font-weight: 200;
@@ -114,22 +105,22 @@
       ul li a {
         padding: 2px 8px;
       }
+      div.bio {
+        display: inline-block;
+        width: 63%;
+        padding: 0;
+        margin: 0;
+      }
+      div.extra {
+        display: inline-block;
+        width: 35%;
+        padding: 0;
+        margin: 0;
+      }
     }
     @media only screen and (min-width: 780px) and (max-width: 1080px) {
       body {
         padding: 5% 4% 100% 4%;
-      }
-      div.bio {
-        display: block;
-        width: 83%;
-        padding: 0 8%;
-        margin: 0 8%;
-      }
-      div.extra {
-        display: block;
-        width: 83%;
-        padding: 0 8%;
-        margin: 0 8%;
       }
       h2 {
         font-weight: 200;
@@ -149,22 +140,22 @@
         font-size: 16px;
         text-indent: 2em;
       }
+      div.bio {
+        display: block;
+        width: 83%;
+        padding: 0 8%;
+        margin: 0 8%;
+      }
+      div.extra {
+        display: block;
+        width: 83%;
+        padding: 0 8%;
+        margin: 0 8%;
+      }
     }
     @media only screen and (min-width: 380px) and (max-width: 780px) {
       body {
         padding: 0 2% 100% 2%;
-      }
-      div.bio {
-        display: block;
-        width: 91%;
-        padding: 0 4%;
-        margin: 0 4%;
-      }
-      div.extra {
-        display: block;
-        width: 91%;
-        padding: 0 4%;
-        margin: 0 4%;
       }
       h2 {
         font-weight: 300;
@@ -184,22 +175,22 @@
         font-size: 16px;
         text-indent: 2em;
       }
+      div.bio {
+        display: block;
+        width: 91%;
+        padding: 0 4%;
+        margin: 0 4%;
+      }
+      div.extra {
+        display: block;
+        width: 91%;
+        padding: 0 4%;
+        margin: 0 4%;
+      }
     }
     @media only screen and (max-width: 380px) {
       body {
         padding: 0 1% 100% 1%;
-      }
-      div.bio {
-        display: block;
-        width: 95%;
-        padding: 0 2%;
-        margin: 0 2%;
-      }
-      div.extra {
-        display: block;
-        width: 95%;
-        padding: 0 2%;
-        margin: 0 2%;
       }
       h2 {
         font-weight: 300;
@@ -218,7 +209,19 @@
         display: block;
         font-size: 14px;
         text-indent: 2em;
-      } 
+      }
+      div.bio {
+        display: block;
+        width: 95%;
+        padding: 0 2%;
+        margin: 0 2%;
+      }
+      div.extra {
+        display: block;
+        width: 95%;
+        padding: 0 2%;
+        margin: 0 2%;
+      }
     }
   </style>
 </head>
