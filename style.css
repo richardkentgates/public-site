@@ -108,6 +108,12 @@
       font-weight: 300;
       color: #fff;
     }
+    main iframe.y-tb {
+       display: block;
+       width: 280px;
+       margin: 24px auto;
+       padding: 0px;
+    }
     footer {
       display: block;
       margin: 0;
