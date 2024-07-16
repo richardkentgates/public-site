@@ -110,7 +110,8 @@
     }
     main iframe.y-tb {
        display: block;
-       width: 280px;
+       width: 90%;
+       max-width: 580px;
        margin: 24px auto;
        padding: 0px;
     }
