@@ -157,6 +157,7 @@
       }
       main iframe.y-tb {
          width: 580px;
+         height: 326px;
       }
     }
     @media only screen and (min-width: 780px) and (max-width: 1080px) {
@@ -198,6 +199,7 @@
       }
       main iframe.y-tb {
          width: 580px;
+         height: 326px;
       }
     }
     @media only screen and (min-width: 380px) and (max-width: 780px) {
@@ -239,6 +241,7 @@
       }
       main iframe.y-tb {
          width: 360px;
+         height: 202px;
       }
     }
     @media only screen and (max-width: 380px) {
@@ -280,5 +283,6 @@
       }
       main iframe.y-tb {
          width: 300px;
+         height: 168px;
       }
     }
