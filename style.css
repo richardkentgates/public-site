@@ -107,10 +107,9 @@
     }
     main div h2 {
       display: block;
-      padding: 8px 8px 8px 0;
+      padding: 8px 8px 8px 12px;
       border-left: solid 8px #424242;
       border-radius: 4px;
-      text-indent: 16px;
       text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
       font-weight: 300;
       color: #fff;
