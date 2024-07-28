@@ -86,7 +86,7 @@
     }
     main {
       display: block;
-      margin: 0;
+      margin: 0 auto;
       padding: 0;
     }
     main div {
@@ -143,6 +143,9 @@
       ul li a {
         padding: 2px 8px;
       }
+      main {
+         width: 1320px;
+      }
       div.bio {
         padding-right: 1%;
         display: inline-block;
@@ -182,6 +185,9 @@
       ul li a {
         padding: 2px 8px;
       }
+      main {
+         width: 1200px;
+      }
       div.bio {
         display: block;
         width: 91%;
@@ -195,7 +201,89 @@
          height: 326px;
       }
     }
-    @media only screen and (min-width: 380px) and (max-width: 1200px) {
+    @media only screen and (min-width: 1080px) and (max-width: 1200px) {
+      body {
+        padding: 0 8%;
+        overflow-x: hidden;
+        overflow-y: scroll;
+      }
+      header img.profile-picture {
+        display: inline-block;
+        margin: 1% 1% -32px 1%;
+        width: 128px;
+      }
+      header div {
+        display: inline-block;
+        width: 80%;
+      }
+      header div h2 {
+        font-weight: 200;
+      }
+      ul li {
+        display: inline-block;
+        margin: 2px;
+      }
+      ul li a {
+        padding: 2px 8px;
+      }
+      main {
+         width: 1080px;
+      }
+      div.bio {
+        display: block;
+        width: 91%;
+      }
+      div.extra {
+        display: block;
+        width: 91%;
+      }
+      main iframe.y-tb {
+         width: 580px;
+         height: 326px;
+      }
+    }
+    @media only screen and (min-width: 1200px) and (max-width: 1320px) {
+      body {
+        padding: 0 8%;
+        overflow-x: hidden;
+        overflow-y: scroll;
+      }
+      header img.profile-picture {
+        display: inline-block;
+        margin: 1% 1% -32px 1%;
+        width: 128px;
+      }
+      header div {
+        display: inline-block;
+        width: 80%;
+      }
+      header div h2 {
+        font-weight: 200;
+      }
+      ul li {
+        display: inline-block;
+        margin: 2px;
+      }
+      ul li a {
+        padding: 2px 8px;
+      }
+      main {
+         width: 780px;
+      }
+      div.bio {
+        display: block;
+        width: 91%;
+      }
+      div.extra {
+        display: block;
+        width: 91%;
+      }
+      main iframe.y-tb {
+         width: 580px;
+         height: 326px;
+      }
+    }
+    @media only screen and (min-width: 380px) and (max-width: 780px) {
       body {
         padding: 0 4%;
         overflow-x: hidden;
@@ -223,6 +311,9 @@
         display: block;
         font-size: 16px;
         text-indent: 2em;
+      }
+      main {
+         width: 380px;
       }
       div.bio {
         display: block;
@@ -265,6 +356,9 @@
         display: block;
         font-size: 14px;
         text-indent: 2em;
+      }
+      main {
+         width: 280px;
       }
       div.bio {
         display: block;
