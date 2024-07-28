@@ -118,7 +118,7 @@
     }
     @media only screen and (min-width: 1080px) {
       body {
-        padding: 0 8% 100% 8%;
+        padding: 0 8%;
         overflow-x: hidden;
         overflow-y: scroll;
       }
@@ -156,7 +156,7 @@
     }
     @media only screen and (min-width: 780px) and (max-width: 1080px) {
       body {
-        padding: 0 4% 100% 4%;
+        padding: 0 4%;
         overflow-x: hidden;
         overflow-y: scroll;
       }
@@ -198,7 +198,7 @@
     }
     @media only screen and (min-width: 380px) and (max-width: 780px) {
       body {
-        padding: 0 2% 100% 2%;
+        padding: 0 2%;
         overflow-x: hidden;
         overflow-y: scroll;
       }
@@ -240,7 +240,7 @@
     }
     @media only screen and (max-width: 380px) {
       body {
-        padding: 0 1% 100% 1%;
+        padding: 0 1%;
         overflow-x: hidden;
         overflow-y: scroll;
       }
