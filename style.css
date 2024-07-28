@@ -120,7 +120,7 @@
     }
     @media only screen and (min-width: 1320px) {
       body {
-        padding: 0 8%;
+        padding: 0 2%;
         overflow-x: hidden;
         overflow-y: scroll;
       }
@@ -196,7 +196,7 @@
     }
     @media only screen and (min-width: 380px) and (max-width: 1200px) {
       body {
-        padding: 0 2%;
+        padding: 0 4%;
         overflow-x: hidden;
         overflow-y: scroll;
       }
