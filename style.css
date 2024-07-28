@@ -10,7 +10,7 @@
     }
     header {
       display: block;
-      margin: 0;
+      margin: 0 auto;
       padding: 12px 0 0 0;
     }
     header img.profile-picture {
@@ -143,7 +143,7 @@
       ul li a {
         padding: 2px 8px;
       }
-      main {
+      main, header {
          width: 1320px;
       }
       div.bio {
@@ -185,7 +185,7 @@
       ul li a {
         padding: 2px 8px;
       }
-      main {
+      main, header {
          width: 1200px;
       }
       div.bio {
@@ -226,7 +226,7 @@
       ul li a {
         padding: 2px 8px;
       }
-      main {
+      main, header {
          width: 1080px;
       }
       div.bio {
@@ -242,7 +242,7 @@
          height: 326px;
       }
     }
-    @media only screen and (min-width: 1200px) and (max-width: 1320px) {
+    @media only screen and (min-width: 780px) and (max-width: 1080px) {
       body {
         padding: 0 8%;
         overflow-x: hidden;
@@ -267,7 +267,7 @@
       ul li a {
         padding: 2px 8px;
       }
-      main {
+      main, header {
          width: 780px;
       }
       div.bio {
@@ -312,7 +312,7 @@
         font-size: 16px;
         text-indent: 2em;
       }
-      main {
+      main, header {
          width: 380px;
       }
       div.bio {
@@ -357,7 +357,7 @@
         font-size: 14px;
         text-indent: 2em;
       }
-      main {
+      main, header {
          width: 280px;
       }
       div.bio {
