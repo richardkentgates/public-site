@@ -118,7 +118,45 @@
     footer p {
       color: #fff;
     }
-    @media only screen and (min-width: 1080px) {
+    @media only screen and (min-width: 1320px) {
+      body {
+        padding: 0 8%;
+        overflow-x: hidden;
+        overflow-y: scroll;
+      }
+      header img.profile-picture {
+        display: inline-block;
+        margin: 1% 1% -32px 1%;
+        width: 128px;
+      }
+      header div {
+        display: inline-block;
+        width: 80%;
+      }
+      header div h2 {
+        font-weight: 200;
+      }
+      ul li {
+        display: inline-block;
+        margin: 2px;
+      }
+      ul li a {
+        padding: 2px 8px;
+      }
+      div.bio {
+        display: inline-block;
+        width: 63%;
+      }
+      div.extra {
+        display: inline-block;
+        width: 35%;
+      }
+      main iframe.y-tb {
+         width: 580px;
+         height: 326px;
+      }
+    }
+    @media only screen and (min-width: 1080px) and (max-width: 1320px) {
       body {
         padding: 0 8%;
         overflow-x: hidden;
@@ -186,16 +224,16 @@
         text-indent: 2em;
       }
       div.bio {
-        display: inline-block;
-        width: 63%;
+        display: block;
+        width: 91%;
       }
       div.extra {
-        display: inline-block;
-        width: 35%;
+        display: block;
+        width: 91%;
       }
       main iframe.y-tb {
-         width: 580px;
-         height: 326px;
+         width: 360px;
+         height: 202px;
       }
     }
     @media only screen and (min-width: 380px) and (max-width: 780px) {
