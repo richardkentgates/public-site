@@ -4,7 +4,7 @@
         if (document.readyState == "complete") {
             $.ajax({
               type: 'GET',
-              url: "https://api.rss2json.com/v1/api.json?rss_url=" + feedURL,
+              url: "feedURL,
               dataType: 'jsonp',
               success: function(data) {
                 var xPost = [];
