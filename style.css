@@ -158,8 +158,8 @@
         width: 40%;
       }
       main iframe.y-tb {
-         width: 480px;
-         height: 270px;
+         width: 500px;
+         height: 281px;
       }
     }
     @media only screen and (min-width: 1200px) and (max-width: 1320px) {
