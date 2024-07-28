@@ -12,10 +12,12 @@
                 var rssStop = 0;
                 for(i=0;i < items.length;i++) {
                     if( items[i].getElementsByTagName("dc:creator")[0].textContent == 'Richard Gates' && rssStop == 0){
+                      var tempPub = document.createElement('div');
                       var tempDoc = document.createElement('div');
-                      document.getElementById('latest-title').appendChild(items[i].getElementsByTagName("title")[0]);
-                      document.getElementById('latest-pub').appendChild(items[i].getElementsByTagName("pubDate")[0]);
+                      var pubDateItems = items[i].getElementsByTagName("pubDate")[0].textContent.split(' ');
                       tempDoc.appendChild(items[i].getElementsByTagName("description")[0]);
+                      document.getElementById('latest-title').appendChild(items[i].getElementsByTagName("title")[0]);
+                      document.getElementById('latest-pub').appendChild(document.createTextNode(pubDateItems[0] + ' ' + pubDateItems[1] + ' ' + pubDateItems[2] + ' ' + pubDateItems[3]));
                       document.getElementById('latest-description').innerHTML = tempDoc.textContent;
                       break;
                     }
