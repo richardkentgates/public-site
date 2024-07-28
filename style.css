@@ -2,6 +2,8 @@
       font-family: 'Prompt', sans-serif;
      }
     body {
+      margin: 0px;
+      padding: 24px 6%;
       background-image: linear-gradient( to bottom right, #3d4d68, #0b0e13);
       background-repeat: no-repeat;
       background-size: cover;
