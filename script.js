@@ -1,29 +1,26 @@
 (function() {
-    var feedURL = "https://gapcreekmedia.com/feed";
+    var feedURL = "https://gapcreekmedia.com/feed/";
     document.addEventListener('readystatechange',function(){
         if (document.readyState == "complete") {
-            $.ajax({
-              type: 'GET',
-              url: "https://api.rss2json.com/v1/api.json?rss_url=" + feedURL,
-              dataType: 'jsonp',
-              success: function(data) {
-                var xPost = [];
-                for(i=0;i < data['items'].length;i++){
-                  if(data['items'][i]['author'] == 'Richard Gates'){
-                    xPost[i] = data['items'][i];
-                  }
+          const RSS_URL = `https://gapcreekmedia.com/feed`;
+          fetch(RSS_URL)
+            .then(response => response.text())
+            .then(str => new window.DOMParser().parseFromString(str, "text/xml"))
+                .then(data => {
+                const feed = data.documentElement;
+                const items = feed.getElementsByTagName('item');
+                var rssStop = 0;
+                for(i=0;i < items.length;i++) {
+                    if( items[i].getElementsByTagName("dc:creator")[0].textContent == 'Richard Gates' && rssStop == 0){
+                      var tempDoc = document.createElement('div');
+                      document.getElementById('latest-title').appendChild(items[i].getElementsByTagName("title")[0]);
+                      document.getElementById('latest-pub').appendChild(items[i].getElementsByTagName("pubDate")[0]);
+                      tempDoc.appendChild(items[i].getElementsByTagName("description")[0]);
+                      document.getElementById('latest-description').innerHTML = tempDoc.textContent;
+                      break;
+                    }
                 }
-                if(xPost.length > 0){
-                  for(i=0;i<1;i++){
-                    document.getElementById('latest-title').innerHTML = xPost[i]['title'];
-                    document.getElementById('latest-pub').appendChild(document.createTextNode(xPost[i]['pubDate']));
-                    document.getElementById('latest-description').innerHTML = xPost[i]['description'];
-                  }
-                } else {
-                  document.getElementById('latest-title').appendChild(document.createTextNode('No post found'));
-                }
-              }
-            });   
+            });
         }
     });
 })();
