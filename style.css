@@ -2,8 +2,6 @@
       font-family: 'Prompt', sans-serif;
      }
     body {
-      margin: 0px;
-      padding: 24px 6%;
       background-image: linear-gradient( to bottom right, #3d4d68, #0b0e13);
       background-repeat: no-repeat;
       background-size: cover;
@@ -117,7 +115,7 @@
     }
     @media only screen and (min-width: 1080px) {
       body {
-        padding: 5% 8% 100% 8%;
+        padding: 0 8% 100% 8%;
         overflow-x: hidden;
         overflow-y: scroll;
       }
@@ -155,7 +153,7 @@
     }
     @media only screen and (min-width: 780px) and (max-width: 1080px) {
       body {
-        padding: 5% 4% 100% 4%;
+        padding: 0 4% 100% 4%;
         overflow-x: hidden;
         overflow-y: scroll;
       }
