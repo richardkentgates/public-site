@@ -79,6 +79,9 @@
     ul li a:hover {
       border-color: #727272;
     }
+    iframe {
+      box-shadow: 1px 1px 4px rgba(0,0,0,0.7);
+    }
     main {
       display: block;
       margin: 0;
