@@ -144,8 +144,9 @@
         padding: 2px 8px;
       }
       div.bio {
+        padding-right: 24px;
         display: inline-block;
-        width: 63%;
+        width: 40%;
       }
       div.extra {
         display: inline-block;
