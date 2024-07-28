@@ -53,6 +53,10 @@
        display: block;
        color: #fff;
     }
+    strong {
+       display: block;
+       color: #fff;
+    }
     ul {
       display: block;
       list-style: none;
