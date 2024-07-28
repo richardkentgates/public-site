@@ -1,9 +1,8 @@
 (function() {
-    var feedURL = "https://gapcreekmedia.com/feed/";
     document.addEventListener('readystatechange',function(){
         if (document.readyState == "complete") {
-          const RSS_URL = `https://gapcreekmedia.com/feed`;
-          fetch(RSS_URL)
+          const rssURL = 'https://gapcreekmedia.com/feed';
+          fetch(rssURL)
             .then(response => response.text())
             .then(str => new window.DOMParser().parseFromString(str, "text/xml"))
                 .then(data => {
