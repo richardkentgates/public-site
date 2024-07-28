@@ -156,7 +156,7 @@
          height: 326px;
       }
     }
-    @media only screen and (min-width: 1080px) and (max-width: 1320px) {
+    @media only screen and (min-width: 1120px) and (max-width: 1320px) {
       body {
         padding: 0 8%;
         overflow-x: hidden;
@@ -194,49 +194,7 @@
          height: 326px;
       }
     }
-    @media only screen and (min-width: 780px) and (max-width: 1080px) {
-      body {
-        padding: 0 4%;
-        overflow-x: hidden;
-        overflow-y: scroll;
-      }
-      header img.profile-picture {
-        display: block;
-        margin: 1% auto 0 0;
-        width: 128px;
-      }
-      header div {
-        display: block;
-      }
-      header div h2 {
-        font-weight: 200;
-      }
-      ul li {
-        display: block;
-        margin: 2px;
-      }
-      ul li a {
-        padding: 2px 8px;
-        display: block;
-        width: 80%;
-        margin-right: auto;
-        font-size: 16px;
-        text-indent: 2em;
-      }
-      div.bio {
-        display: block;
-        width: 91%;
-      }
-      div.extra {
-        display: block;
-        width: 91%;
-      }
-      main iframe.y-tb {
-         width: 580px;
-         height: 326px;
-      }
-    }
-    @media only screen and (min-width: 380px) and (max-width: 780px) {
+    @media only screen and (min-width: 380px) and (max-width: 1120px) {
       body {
         padding: 0 2%;
         overflow-x: hidden;
