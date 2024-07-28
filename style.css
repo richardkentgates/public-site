@@ -111,9 +111,6 @@
       font-weight: 300;
       color: #fff;
     }
-    main iframe.y-tb {
-       margin: 12px auto;
-    }
     footer {
       display: block;
       margin: 0;
@@ -161,8 +158,10 @@
         width: 40%;
       }
       main iframe.y-tb {
+         display: block;
          width: 500px;
          height: 281px;
+         margin: 12px auto;
       }
     }
     @media only screen and (min-width: 1200px) and (max-width: 1320px) {
