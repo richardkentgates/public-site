@@ -138,7 +138,7 @@
       ul li a {
         padding: 2px 8px;
       }
-      div.bio {
+      div.post {
         display: inline-block;
         width: 63%;
       }
@@ -180,7 +180,7 @@
         font-size: 16px;
         text-indent: 2em;
       }
-      div.bio {
+      div.post {
         display: inline-block;
         width: 63%;
       }
@@ -222,7 +222,7 @@
         font-size: 16px;
         text-indent: 2em;
       }
-      div.bio {
+      div.post {
         display: block;
         width: 91%;
       }
@@ -264,7 +264,7 @@
         font-size: 14px;
         text-indent: 2em;
       }
-      div.bio {
+      div.post {
         display: block;
         width: 95%;
       }
