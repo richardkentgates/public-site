@@ -45,6 +45,14 @@
     a:hover {
       color: #62a9d9;
     }
+    p {
+       display: block;
+       color: #fff;
+    }
+    small {
+       display: block;
+       color: #fff;
+    }
     ul {
       display: block;
       list-style: none;
