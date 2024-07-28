@@ -151,15 +151,15 @@
       div.bio {
         padding-right: 1%;
         display: inline-block;
-        width: 46%;
+        width: 41%;
       }
       div.extra {
         display: inline-block;
-        width: 35%;
+        width: 40%;
       }
       main iframe.y-tb {
-         width: 580px;
-         height: 326px;
+         width: 460px;
+         height: 258px;
       }
     }
     @media only screen and (min-width: 1200px) and (max-width: 1320px) {
