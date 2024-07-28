@@ -111,6 +111,9 @@
       font-weight: 300;
       color: #fff;
     }
+    main iframe.y-tb {
+       margin: 12px auto;
+    }
     footer {
       display: block;
       margin: 0;
