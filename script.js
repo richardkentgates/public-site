@@ -35,7 +35,7 @@
     };
     document.addEventListener('readystatechange',function(){
         if (document.readyState == "complete") {
-            rssEmbed.f.latestPost('https://gapcreekmedia.com/feed','Richard Gates',100,'post');
+            rssEmbed.f.latestPost('https://gapcreekmedia.com/feed','Richard Gates',1,'post');
         }
     });
 })();
